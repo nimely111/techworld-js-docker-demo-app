@@ -69,6 +69,8 @@ Step 1: start mongodb and mongo-express
     docker-compose -f docker-compose.yaml up
 ```
 
+_Note: that the `-f` flag points to the file that contains the docker compose commands_
+
 ## using docker-compose to stop all connected containers at once
 
 ```bash
